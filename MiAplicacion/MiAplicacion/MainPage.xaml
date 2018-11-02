@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MiAplicacion"
+             x:Class="MiAplicacion.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+    	<Label Text="Hola brother" 
+           HorizontalOptions="Center" />
+        <Entry x:Name="txtCantidad"  />
+        <Button Text="Calcular 10%" x:Name="btnBoton" Clicked="btnBoton_Clicked" />
+        <Label Text="" x:Name="lblResultado" />
+    </StackLayout>
+
+</ContentPage>
